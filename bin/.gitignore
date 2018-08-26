@@ -1,0 +1,13 @@
+#忽略自动生成的文件
+*.lk
+*.mem
+*.map
+*.asm
+*.lst
+*.rel
+*.rst
+*.sym
+
+*.ihx
+*.bin
+*.hex

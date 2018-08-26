@@ -1,0 +1,19 @@
+{
+	"project": {
+		"target": "51_traffic",
+		"compiler_cross": "",
+		"compiler": "sdcc",
+		"build": {
+			"output": "bin/",
+			"object_output": "obj/",
+			"option" : ["-mmcs51", "--model-small", "--opt-code-size"]
+		},
+		"link": {
+			"option": ["--xram-size 4096", "--iram-size 256", "--code-size 65536", "--out-fmt-ihx"]
+		},
+		"include": [],
+		"lib_dir": [],
+		"lib": [],
+		"file": ["app/light/light.c", "app/timer/timer.c", "app/main/main.c"]
+	}
+}
